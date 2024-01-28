@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times Now', Serif;
+}
+
+body{
+      background: url(ab.jpg);
+      background-size: 500%;      
+      background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header section  */
+
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2));
+    font-family: 'Reggae One',cursive;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+align-items: center;
+background: transparent;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px ;
+    font-size: 28px;
+}
+
+.menu a:hover{
+   border: 1px solid red;
+     background: transparent;
+}
+.xy{
+width: 80%;
+padding: 1%;
+}
+.flex{
+margin-left: 28%;
+float: left;
+position: absolute;
+top: 30%;
+}
+.h-text{
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    max-width: 500px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+font-family: 'Times Now', Serif;
+}
+.logo{
+    font-size: 55px;
+    letter-spacing: 2px;   
+}
+span{
+    color: var(--red-color);   
+}
+
+/* header content  */
+
+.content{
+    
+    height: 90vh;
+    position: relative;
+}
+
+.content .right img{
+    width: 120%;
+    position: relative;
+    z-index: 999;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.content .right img:hover{
+    filter: drop-shadow(16px 5px 20px burlywood);
+}
+
+h4, p{
+    font-family: 'Poppins', sans-serif;
+font-size: 20px;
+}
+
+.color-box{
+    width: 560px;
+    height: 480px;
+    border: 5px solid red;
+    transform: rotate(48deg);
+    position: absolute;
+    top: 120px;
+    right: 10px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    position: absolute;
+}
+.info{
+font-size: 40px;
+align-items: center;
+}
+.spy{
+font-size: 30px;
+align-items: center;
+}
+.fot{
+align-items: center;
+line-spacing:3;
+}
+/* @media (max-width:768px){
+    .nav-bar{
+        flex-direction: column;
+        position: relative;
+        background-color: var(--secondary-shade);
+        width: 100%;
+        height: 100vh;      
+    }
+.flex{
+    display: flex;
+}
+
