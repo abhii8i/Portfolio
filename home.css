@@ -49,16 +49,17 @@ background: transparent;
 .xy{
 width: 80%;
 padding: 1%;
+line-spacing: 3;
 }
 .flex{
-margin-left: 28%;
+margin-left: 34%;
 float: left;
 position: absolute;
-top: 30%;
+top: 25%;
 }
 .h-text{
     position: absolute;
-    top: 50%;
+    top: 42%;
     left: 63%;
     max-width: 500px;
     transform: translate(-50%,-50%);
