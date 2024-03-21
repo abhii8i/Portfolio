@@ -126,7 +126,6 @@ align-items: center;
 align-items: center;
 line-spacing:3;
 }
-/* @media (max-width:768px){
     .nav-bar{
         flex-direction: column;
         position: relative;
@@ -136,12 +135,6 @@ line-spacing:3;
     }
 .flex{
     display: flex;
-}
-.xyz{
-    text-decoration: none;
-    color: #fff;
-    padding: 10px 20px ;
-    font-size: 15px;
 }
 .lo{
  font-family: 'Times Now', Serif;
