@@ -137,4 +137,9 @@ line-spacing:3;
 .flex{
     display: flex;
 }
-
+.xyz{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px ;
+    font-size: 15px;
+}
